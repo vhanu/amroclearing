@@ -1,0 +1,41 @@
+Apr 25, 2018 6:39:34 PM amroclearing.CalculateDailyBusinessSummary main
+INFO: 
+ Application started
+Apr 25, 2018 6:39:34 PM amroclearing.CalculateDailyBusinessSummary main
+INFO: ----------------------------------------------------------------------
+Apr 25, 2018 6:39:34 PM amroclearing.CalculateDailyBusinessSummary main
+INFO: Checking resources and creating folders
+Apr 25, 2018 6:39:34 PM amroclearing.CalculateDailyBusinessSummary main
+INFO: 
+ Starting to build daily summary report
+Apr 25, 2018 6:39:34 PM amroclearing.CalculateDailyBusinessSummary readCsvFieldDescriptionFileForHeaders
+INFO: Description file read completed. Input headers extracted
+Apr 25, 2018 6:39:34 PM amroclearing.CalculateDailyBusinessSummary readInputFile
+INFO: Reading input data file
+Apr 25, 2018 6:39:34 PM amroclearing.CalculateDailyBusinessSummary readInputFile
+INFO: Input data file read successfully
+Apr 25, 2018 6:39:35 PM amroclearing.CalculateDailyBusinessSummary generateIntermediateCsvFile
+INFO: Generating intermediate csv file.
+Apr 25, 2018 6:39:35 PM amroclearing.CalculateDailyBusinessSummary generateCsvFiles
+INFO: Writing to csv file with name D:\csvFile\output\intermediateOutput_20180425063934.csv
+Apr 25, 2018 6:39:35 PM amroclearing.CalculateDailyBusinessSummary generateCsvFiles
+INFO: Csv file D:\csvFile\output\intermediateOutput_20180425063934.csv written.
+Apr 25, 2018 6:39:35 PM amroclearing.CalculateDailyBusinessSummary generateIntermediateCsvFile
+INFO: Intermediate csv file generated as.D:\csvFile\output\intermediateOutput_20180425063934.csv
+Apr 25, 2018 6:39:35 PM amroclearing.CalculateDailyBusinessSummary generateOutPutCsvFile
+INFO: Business logic calculation started for daily summary.
+Apr 25, 2018 6:39:35 PM amroclearing.CalculateDailyBusinessSummary populateRowsForDailySummary
+INFO: Business logic calculation ongoing.
+Apr 25, 2018 6:39:35 PM amroclearing.CalculateDailyBusinessSummary populateRowsForDailySummary
+INFO: Business logic calculation for daily summary completed.
+Apr 25, 2018 6:39:35 PM amroclearing.CalculateDailyBusinessSummary generateOutPutCsvFile
+INFO: Writing final output file D:\csvFile\output\output_20180425063935.csv
+Apr 25, 2018 6:39:35 PM amroclearing.CalculateDailyBusinessSummary generateCsvFiles
+INFO: Writing to csv file with name D:\csvFile\output\output_20180425063935.csv
+Apr 25, 2018 6:39:35 PM amroclearing.CalculateDailyBusinessSummary generateCsvFiles
+INFO: Csv file D:\csvFile\output\output_20180425063935.csv written.
+Apr 25, 2018 6:39:35 PM amroclearing.CalculateDailyBusinessSummary main
+INFO: All tasks successfully completed. Log file, Intermediate file and Output file written.
+Apr 25, 2018 6:39:35 PM amroclearing.CalculateDailyBusinessSummary main
+INFO: ----------------------------------------------------------------------
+
